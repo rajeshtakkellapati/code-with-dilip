@@ -14,8 +14,13 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    //flyway
     implementation 'org.flywaydb:flyway-core'
+    //db
     runtimeOnly 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
