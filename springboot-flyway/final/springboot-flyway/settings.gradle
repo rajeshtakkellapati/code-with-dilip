@@ -1,0 +1,3 @@
+rootProject.name = 'springboot-flyway'
+include 'flyway-h2'
+include 'flyway-postgres'
