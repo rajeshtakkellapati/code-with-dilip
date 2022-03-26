@@ -1,13 +1,13 @@
-package com.consumer;
+package com.springbootconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsumerApplication {
+public class SpringBootConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(SpringBootConsumerApplication.class, args);
     }
 
 }
